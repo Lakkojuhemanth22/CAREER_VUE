@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>CarrerVue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><h1>Career<span>Vue.</span></h1></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#content">Content</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="header">
+        <div class="container">
+            <div class="main_left fade-in-left">
+                <div class="featured-name">
+                    <p>Let's, <span class="typedText"></span></p>
+                    <p>From <span>CareerVue</span></p>
+                    <button class="start_btn" onclick="href='#content';">Scroll Down</button>
+                </div>
+            </div>
+            <div class="main_right fade-in-right">
+                <img src="images/newheader.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <h1 class="Heading">Explore The Content:</h1>
+        <div class="content1 fade-in-left">
+            <div class="card">
+                <div class="card_left">
+                    <h3>JobMatch</h3>
+                <p>Analyzes your resume and suggests suitable job opportunities.</p>
+                </div>
+                <div class="card_rigth">
+                    <button class="start_btn" onclick="window.location.href='jobmatch.html';"><i class="ri-arrow-right-up-line"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_left">
+                    <h3>CareerMap</h3>
+                    <p>Explores job sectors and provides detailed information on roles within them.</p>
+                </div>
+                <div class="card_rigth">
+                    <button class="start_btn" onclick="window.location.href='jobmatch.html';"><i class="ri-arrow-right-up-line"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="content2 fade-in-right">
+            <div class="card">
+                <div class="card_left">
+                <h3>Interview Prep</h3>
+                <p>Essential tips and practice for acing your interviews.</p>
+                </div>
+                <div class="card_rigth">
+                    <button class="start_btn" onclick="window.location.href='jobmatch.html';"><i class="ri-arrow-right-up-line"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_left">
+                <h3>Resume Builder</h3>
+                <p>Create a standout resume with ease.</p>
+                </div>
+                <div class="card_rigth">
+                    <button class="start_btn" onclick="window.location.href='jobmatch.html';"><i class="ri-arrow-right-up-line"></i></button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_left">
+                <h3>LinkedIn Builder</h3>
+                <p>Optimize and enhance your LinkedIn profile for better visibility.</p>
+                    </div>
+                    <div class="card_rigth">
+                        <button class="start_btn" onclick="window.location.href='jobmatch.html';"><i class="ri-arrow-right-up-line"></i></button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <!-- basic script  -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+    /* ----- TYPING EFFECT ----- */
+    var typingEffect = new Typed(".typedText",{
+        strings : ["Explore","Learn"],
+        loop : true,
+        typeSpeed : 100, 
+        backSpeed : 80,
+        backDelay : 2000
+    })
+    </script>
+
+</body>
+</html>
